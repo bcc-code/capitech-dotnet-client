@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Capitech.Client.Tests
 {
-    // [Ignore("Live integration tests")]
+    [Ignore("Live integration tests")]
     public class CapitechClientTests
     {
         public CapitechOptions Options { get; set; }
