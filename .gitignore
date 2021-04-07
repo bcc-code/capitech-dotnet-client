@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs
+/src/Capitech.Client/bin
+/src/Capitech.Client/obj
+/tests/Capitech.Client.Tests/bin
+/tests/Capitech.Client.Tests/obj
