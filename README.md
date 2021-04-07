@@ -1,2 +1,2 @@
-# Capitech Client for .Net
-A client library for the Capitech API
+# Capitech .Net Client
+A client library for the Capitech API.
