@@ -1,2 +1,2 @@
-# capitech-dotnet-client
-[BCC IT] .Net Client Library for the Capitech API
+# Capitech Client for .Net
+A client library for the Capitech API
