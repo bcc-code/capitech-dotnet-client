@@ -20,9 +20,9 @@ namespace Capitech.Client.Absence
 
         public int AbsenceType { get; set; }
 
-        public DateTime? FromDate { get; set; }
+        public DateTimeOffset? FromDate { get; set; }
 
-        public DateTime? EndDate { get; set; }
+        public DateTimeOffset? EndDate { get; set; }
 
         public TimeSpan? StartTime { get; set; }
 
@@ -36,15 +36,15 @@ namespace Capitech.Client.Absence
 
         public string Department { get; set; }
 
-        public DateTime CreatedOn { get; set; }
+        public DateTimeOffset CreatedOn { get; set; }
 
         public string CreatedBy { get; set; }
 
-        public DateTime UpdatedOn { get; set; }
+        public DateTimeOffset UpdatedOn { get; set; }
 
         public string UpdatedBy { get; set; }
 
-        public DateTime DayDate { get; set; }
+        public DateTimeOffset DayDate { get; set; }
 
         public TimeSpan? DayStartTime { get; set; }
 

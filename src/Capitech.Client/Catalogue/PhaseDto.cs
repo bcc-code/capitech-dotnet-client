@@ -16,11 +16,11 @@ namespace Capitech.Client.Catalogue
 
         public string Description { get; set; }
 
-        public DateTime? StartDate { get; set; }
+        public DateTimeOffset? StartDate { get; set; }
 
-        public DateTime? PlannedFinishDate { get; set; }
+        public DateTimeOffset? PlannedFinishDate { get; set; }
 
-        public DateTime? FinishDate { get; set; }
+        public DateTimeOffset? FinishDate { get; set; }
 
 
         /// <summary>

@@ -10,11 +10,11 @@ namespace Capitech.Client.OperationalPlan
 
         public int ClientId { get; set; }
 
-        public DateTime? CreatedOn { get; set; }
+        public DateTimeOffset? CreatedOn { get; set; }
 
         public string CreatedBy { get; set;}
 
-        public DateTime? UpdatedOn { get; set; }
+        public DateTimeOffset? UpdatedOn { get; set; }
 
         public string UpdatedBy { get; set; }
 
@@ -24,9 +24,9 @@ namespace Capitech.Client.OperationalPlan
 
         public string Notes { get; set;}
 
-        public DateTime? Start { get; set;}
+        public DateTimeOffset? Start { get; set;}
 
-        public DateTime? End { get; set; }
+        public DateTimeOffset? End { get; set; }
 
         public string Period { get; set; }
 
@@ -36,9 +36,9 @@ namespace Capitech.Client.OperationalPlan
 
         public decimal? Hours { get; set; }
 
-        public DateTime? NewStart { get; set; }
+        public DateTimeOffset? NewStart { get; set; }
 
-        public DateTime? NewEnd { get; set; }
+        public DateTimeOffset? NewEnd { get; set; }
 
         public decimal? NewHours { get; set; }
 

@@ -48,11 +48,11 @@ namespace Capitech.Client.Employee
         /// </summary>
         public string BirthDate { get; set; }
 
-        public DateTime? EmployeeStartDate { get; set; }
+        public DateTimeOffset? EmployeeStartDate { get; set; }
 
-        public DateTime? EmployeeEndDate { get; set; }
+        public DateTimeOffset? EmployeeEndDate { get; set; }
 
-        public DateTime? EmployeeSeniorityDate { get; set; }
+        public DateTimeOffset? EmployeeSeniorityDate { get; set; }
 
         public string ExternalId { get; set; }
 

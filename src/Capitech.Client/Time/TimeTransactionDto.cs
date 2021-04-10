@@ -14,11 +14,11 @@ namespace Capitech.Client.Time
 
         public string Employee { get; set; }
 
-        public DateTime? DateIn { get; set; }
+        public DateTimeOffset? DateIn { get; set; }
 
         public TimeSpan? TimeIn { get; set; }
 
-        public DateTime? DateOut { get; set; }
+        public DateTimeOffset? DateOut { get; set; }
 
         public TimeSpan? TimeOut { get; set; }
 
