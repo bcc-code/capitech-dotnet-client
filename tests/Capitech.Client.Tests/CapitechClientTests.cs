@@ -112,8 +112,11 @@ namespace Capitech.Client.Tests
                 var subProjects = await client.Catalogue.GetSubProjectsAsync(100, project.ProjectId);
                 foreach (var subProject in subProjects)
                 {
-                    var result = await client.Catalogue.GetPhasesAsync(100, projects[0].ProjectId, subProject.SubProjectId);
-                    Assert.NotNull(result);
+                    if (subProject.UsesPhases)
+                    {
+                        var result = await client.Catalogue.GetPhasesAsync(100, projects[0].ProjectId, subProject.SubProjectId);
+                        Assert.NotNull(result);
+                    }
                 }
             }            
         }
