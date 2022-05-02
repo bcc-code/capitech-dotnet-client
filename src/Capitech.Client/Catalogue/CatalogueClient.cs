@@ -64,9 +64,9 @@ namespace Capitech.Client.Catalogue
             return Api.PostAsync<GetPhasesRequest, PhaseDto>(clientId, "public/v1/Catalogue/getPhases", o => { o.ProjectId = projectId; o.SubProjectId = subProjectId; });
         }
 
-        public Task<ProjectDto[]> GetProjectsAsync(int clientId)
+        public Task<ProjectDto[]> GetProjectsAsync(int clientId, bool includePassive = false)
         {
-            return Api.PostAsync<CapitechApiRequest, ProjectDto>(clientId, "public/v1/Catalogue/getProjects");
+            return Api.PostAsync<GetProjectsRequest, ProjectDto>(clientId, "public/v1/Catalogue/getProjects", o => o.IncludePassive = includePassive);
         }
 
         public Task<SubProjectDto[]> GetSubProjectsAsync(int clientId, int projectId)
